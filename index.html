@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta name="author" content="joshua">
+   <meta name="description" content="javascript pokedex">
+   <meta name="keywords" content="javascript, pokedex">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>FCC JADS RPG Creature Search App</title>
+   <link rel="icon" type="image/x-icon" href="./favicon.ico">
+   <link rel="stylesheet" href="index.css">
+</head>
+<body>
+   <main>
+      <section>
+         <h1>Yer Pokerdax</h1>
+         <label for="search-input">Name or ID, maybe</label>
+         <input id="search-input" name="search-input" required>
+         <button type="button" id="search-button">lOOkit!</button>
+      </section>
+      <section>
+         <div id="fanfare" class="hidden">tAH-DAah!</div>
+         <div id="image"></div>
+         <div class="stat">NAME!<div id="pokemon-name"></div></div>
+         <div class="stat">ID?<div id="pokemon-id"></div></div>
+         <div class="stat">mass affected by gravity<div id="weight"></div></div>
+         <div class="stat">tallness or shortness<div id="height"></div></div>
+         <div class="stat">arbitrary words<div id="types"></div></div>
+         <div class="stat">holistic points<div id="hp"></div></div>
+         <div class="stat">bite!<div id="attack"></div></div>
+         <div class="stat">bark?<div id="defense"></div></div>
+         <div class="stat">special bite<div id="special-attack"></div></div>
+         <div class="stat">special bark<div id="special-defense"></div></div>
+         <div class="stat">moveability<div id="speed"></div></div>
+      </section>
+   </main>
+   <script src="index.js" defer></script>
+</body>
+</html>

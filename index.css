@@ -1,0 +1,11 @@
+main {
+   width: 400px;
+}
+
+.hidden {
+   display: none;
+}
+
+.stat div {
+   float: right;
+}
